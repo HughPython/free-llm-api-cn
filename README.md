@@ -2,7 +2,7 @@
 
 长期实测可用的免费 / 低价大模型 API 汇总，**全部兼容 OpenAI 接口格式**，可直连 Cherry Studio、LobeChat、NextChat、OneAPI、各类 Agent 工具。
 
-> 更新：2026-09-19 ｜ 站点政策随时会变，福利没了不负责  
+> 更新：2026-10-06 ｜ 站点政策随时会变，福利没了不负责  
 > 表格里的站名可直接点击跳转；部分链接含邀请码，可以的话支持一下弟弟
 
 ---
@@ -13,7 +13,7 @@
 | :---------------------------------------------------------- | :---: | :------: | :----: |
 | [维云模型](https://vsllm.com/register?aff=Zn6v)                 | ★★★★☆ |     ✔    |    ✖   |
 | [魔搭社区 ModelScope](https://modelscope.cn/)                   | ★★★★★ |     ✖    |    ✖   |
-| [肖恩 AI](https://free.supxh.xin/register?code=3P8G4F)        | ★★★☆☆ |     ✖    |    ✖   |
+| [肖恩 AI](https://go.toter.me/register?code=3P8G4F)        | ★★★☆☆ |     ✖    |    ✖   |
 | [幻城网安](https://api.hcnsec.cn/sign-up?aff=BUHW)              | ★★★★★ |     ✖    |    ✖   |
 | [Agnes AI](https://platform.agnes-ai.cn/)                   | ★★★★★ |     ✖    |    ✖   |
 | [商汤日日新 SenseNova](https://platform.sensenova.cn/)           | ★★★★☆ |     ✖    |    ✖   |
@@ -49,10 +49,10 @@
 
 ### 3. 肖恩 AI
 
-- **网站**：<https://free.supxh.xin/register?code=3P8G4F>
+- **网站**：<https://go.toter.me/register?code=3P8G4F>
 - **Base URL**：`https://speed1.toter.me/v1`（不通时换 `https://api.supxh.xin/v1`）
-- **特点**：打开无需魔法、无需绑卡。免费档覆盖 Gemini、Claude、DeepSeek、Grok；付费套餐可选 GPT 等更先进的模型。
-- **邀请码**：注册时填 `3P8G4F`，额外多得 2000 长期额度。
+- **特点**：打开无需魔法、无需绑卡。免费档覆盖 Gemini、Claude、DeepSeek、Grok；付费套餐可选 GPT 等更先进的模型。如果网站网址打不开，可以输入永久域名找到最新网站：<https://xiaoenai.pages.dev/>
+- **邀请码**：注册时填 `3P8G4F`，额外多得 6000 长期额度。
 - **福利模式**：
   1. 注册初始赠送额度，偶尔会邮件补发额度；
   2. 每日签到领额度（仅限当天使用，记得用完）。
@@ -62,7 +62,7 @@
 
 - **网站**：<https://api.hcnsec.cn/sign-up?aff=BUHW>
 - **Base URL**：`https://api.hcnsec.cn/v1`
-- **特点**：打开无需魔法、无需绑卡。以国内主流模型 Qwen、DeepSeek、Kimi 等为主，价格极低；目前 **Qwen3.8-Flash-Next 免费**。
+- **特点**：打开无需魔法、无需绑卡。以国内主流模型 Qwen、DeepSeek、Kimi 等为主，价格极低；目前 **Qwen3.8-Flash-Next、MiMo-V2.6-Flash和space-bunny-free免费**。
 - **彩蛋**：站主在魔搭开源了一个无限制的角色扮演模型 [SparkMuse-4B](https://modelscope.cn/models/hcnote/SparkMuse-4B)，能生成你弟弟喜欢的刘备文，有需要的可以自取。
 - **福利模式**：每日领取额度（实测浮动较大，大概 1～500 之间）。
 - **推荐指数**：★★★★★
@@ -71,7 +71,7 @@
 
 - **网站**：国内站 <https://platform.agnes-ai.cn/> ｜ 国际站 <https://platform.agnes-ai.com/>
 - **Base URL**：`https://api.agnes-ai.cn/v1`
-- **特点**：新加坡团队出品，**文本、图像、视频三模态全线免费**，无 Token 上限，邮箱注册即可，无需手机号。常用模型：`agnes-2.5-flash`、`agnes-3.0-flash`（文本，1M 上下文）、`agnes-image-2.1-flash`（文生图）、`agnes-video-v2.0`（文生视频）。国内站免魔法，直接访问。
+- **特点**：新加坡团队出品，**文本、图像、视频三模态全线免费**，无 Token 上限，邮箱注册即可，无需手机号。常用模型：`agnes-2.5-flash`、`agnes-3.0-flash`（文本，1M 上下文）、`agnes-image-2.5-flash`（文生图）、`agnes-video-v2.0`（文生视频）。国内站免魔法，直接访问。
 - **福利模式**：2026 年 6 月起无限期免费开放，免费档约 20 RPM，日常写文档、跑 Agent 足够用。
 - **小tip：**&#x7B80;单易申请企业账号，免费额度翻倍
 - **注意**：视频模型稳定性一般；高峰期偶尔变慢。
@@ -92,7 +92,7 @@
 - **Base URL**：`https://open.bigmodel.cn/api/paas/v4/`
 - **特点**：无需魔法、无需绑卡。
 - **福利模式**：
-  1. **GLM-4-Flash-250414 / GLM-Z1-Flash / GLM-4.7-Flash / GLM-4.6V-Flash**（可识图） **/ GLM-4.1V-Thinking-Flash**（可识图） **/ CogView-3-Flash**（生图） **/ CogVideoX-Flash**（生成视频）**永久免费**，不限 Token、限并发；（个人用下来4.7、4.6模型经常429限额，不过简单文本模型4就够用了）
+  1. **GLM-4-Flash-250414 / GLM-Z1-Flash / GLM-4.7-Flash / GLM-4.6V-Flash**（可识图） **/ GLM-4.1V-Thinking-Flash**（可识图） **/ CogView-3-Flash**（生图） **/ CogVideoX-Flash**（生成视频）**永久免费**，不限 Token、限并发；（个人用下来4.7、4.6模型经常429限额，不过简单任务如提示词增强、子agent分配等文本模型GLM-4就够用了）
   2. 新用户注册另送 2000 万 Token 额度。
 - **推荐指数**：★★★★★
 
@@ -109,7 +109,7 @@
 - **网站**：<https://chat.ant-ling.com/open>
 - **Base URL**：`https://api.ant-ling.com/v1`
 - **特点**：**每天 50 万 Token 免费额度**，次日2点刷新。
-- **注意**：这是本清单里**唯一需要绑定支付宝**的站点——注册后必须完成支付宝绑定才能创建 API Key，但不会扣款。
+- **注意**：这是本清单里**唯一需要绑定支付宝**的站点——注册后必须完成支付宝绑定才能创建 API Key，但不会扣款。个人实测下来基本上每天一个定时任务额度就用完了，可以当作一项定时任务的模型来用，不能成为你的长期项目模型。
 - **模型名**：可选 Ring-2.6-1T、Ling-2.6-1T、Ling-3.0-flash-VL 等。
 - **推荐指数**：★★★☆☆
 
@@ -126,7 +126,7 @@
 
 ### 11. 其他
 
-英伟达（限流严重，经常调用不了）、书生（额度消耗太快）、Hermes（需绑卡）、groq（需魔法）、cf（链接麻烦）、hugging face（魔法）、讯飞lite（8k上下文，只能chat，tool用不了一点）等因为这样那样问题就不在我常用的模型范围，因此未列出。
+英伟达（限流严重，经常调用不了）、书生（额度消耗太快）、Hermes（需绑卡）、groq（需魔法）、cf（链接麻烦）、hugging face（魔法）、讯飞lite（8k上下文，只能chat，tool用不了一点）、UnoRouter（连接极其不稳定，经常429）等因为这样那样问题就不在我常用的模型范围，因此未列出。
 
 ---
 
